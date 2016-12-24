@@ -1,0 +1,29 @@
+{
+  "name": "seyrch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swolebrain/seyrch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swolebrain/seyrch/issues"
+  },
+  "homepage": "https://github.com/Swolebrain/seyrch#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "oauth": "^0.9.14",
+    "request": "^2.78.0",
+    "yelp": "^1.0.1"
+  }
+}
